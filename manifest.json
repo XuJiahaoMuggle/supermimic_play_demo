@@ -1,0 +1,1501 @@
+{
+  "version": 1,
+  "generated_at": "2026-11-20T00:48:57Z",
+  "model": {
+    "xml": "models/g1/g1.xml",
+    "asset_base": "models/g1/assets",
+    "assets": [
+      "head_link.STL",
+      "left_ankle_pitch_link.STL",
+      "left_ankle_roll_link.STL",
+      "left_elbow_link.STL",
+      "left_hip_pitch_link.STL",
+      "left_hip_roll_link.STL",
+      "left_hip_yaw_link.STL",
+      "left_knee_link.STL",
+      "left_shoulder_pitch_link.STL",
+      "left_shoulder_roll_link.STL",
+      "left_shoulder_yaw_link.STL",
+      "left_wrist_pitch_link.STL",
+      "left_wrist_roll_link.STL",
+      "left_wrist_yaw_link.STL",
+      "logo_link.STL",
+      "pelvis.STL",
+      "pelvis_contour_link.STL",
+      "right_ankle_pitch_link.STL",
+      "right_ankle_roll_link.STL",
+      "right_elbow_link.STL",
+      "right_hip_pitch_link.STL",
+      "right_hip_roll_link.STL",
+      "right_hip_yaw_link.STL",
+      "right_knee_link.STL",
+      "right_shoulder_pitch_link.STL",
+      "right_shoulder_roll_link.STL",
+      "right_shoulder_yaw_link.STL",
+      "right_wrist_pitch_link.STL",
+      "right_wrist_roll_link.STL",
+      "right_wrist_yaw_link.STL",
+      "torso_link_rev_1_0.STL",
+      "waist_roll_link_rev_1_0.STL",
+      "waist_yaw_link_rev_1_0.STL"
+    ]
+  },
+  "checkpoints": [
+    {
+      "id": "runs_bones_seed_bones_seed_bin_0_2s",
+      "label": "runs/bones_seed/bones_seed_bin_0_2s",
+      "source": "runs/bones_seed/bones_seed_bin_0_2s/last.pt",
+      "onnx": "policies/00_runs_bones_seed_bones_seed_bin_0_2s.onnx",
+      "it": 22000,
+      "updates": 8797,
+      "env_steps": 180224000,
+      "history_length": 10,
+      "goal_dim": 640,
+      "action_dim": 29,
+      "bytes": 35428128
+    }
+  ],
+  "motions": [
+    {
+      "id": "bones_seed_flips:0",
+      "name": "flip_090_001__A304",
+      "library": "bones_seed_flips",
+      "frames": 360,
+      "fps": 50.0,
+      "offset": 0
+    },
+    {
+      "id": "bones_seed_flips:1",
+      "name": "flip_090_001__A304_M",
+      "library": "bones_seed_flips",
+      "frames": 360,
+      "fps": 50.0,
+      "offset": 102240
+    },
+    {
+      "id": "bones_seed_flips:2",
+      "name": "flip_090_002__A304",
+      "library": "bones_seed_flips",
+      "frames": 316,
+      "fps": 50.0,
+      "offset": 204480
+    },
+    {
+      "id": "bones_seed_flips:3",
+      "name": "flip_090_002__A304_M",
+      "library": "bones_seed_flips",
+      "frames": 316,
+      "fps": 50.0,
+      "offset": 294224
+    },
+    {
+      "id": "bones_seed_flips:4",
+      "name": "flip_090_003__A304",
+      "library": "bones_seed_flips",
+      "frames": 232,
+      "fps": 50.0,
+      "offset": 383968
+    },
+    {
+      "id": "bones_seed_flips:5",
+      "name": "flip_090_003__A304_M",
+      "library": "bones_seed_flips",
+      "frames": 232,
+      "fps": 50.0,
+      "offset": 449856
+    },
+    {
+      "id": "bones_seed_flips:6",
+      "name": "flip_180_R_001__A304",
+      "library": "bones_seed_flips",
+      "frames": 280,
+      "fps": 50.0,
+      "offset": 515744
+    },
+    {
+      "id": "bones_seed_flips:7",
+      "name": "flip_180_R_001__A304_M",
+      "library": "bones_seed_flips",
+      "frames": 280,
+      "fps": 50.0,
+      "offset": 595264
+    },
+    {
+      "id": "bones_seed_flips:8",
+      "name": "flip_180_R_002__A304",
+      "library": "bones_seed_flips",
+      "frames": 281,
+      "fps": 50.0,
+      "offset": 674784
+    },
+    {
+      "id": "bones_seed_flips:9",
+      "name": "flip_180_R_002__A304_M",
+      "library": "bones_seed_flips",
+      "frames": 281,
+      "fps": 50.0,
+      "offset": 754588
+    },
+    {
+      "id": "bones_seed_flips:10",
+      "name": "flip_180_R_003__A304",
+      "library": "bones_seed_flips",
+      "frames": 294,
+      "fps": 50.0,
+      "offset": 834392
+    },
+    {
+      "id": "bones_seed_flips:11",
+      "name": "flip_180_R_003__A304_M",
+      "library": "bones_seed_flips",
+      "frames": 294,
+      "fps": 50.0,
+      "offset": 917888
+    },
+    {
+      "id": "bones_seed_flips:12",
+      "name": "flip_180_R_006__A304",
+      "library": "bones_seed_flips",
+      "frames": 241,
+      "fps": 50.0,
+      "offset": 1001384
+    },
+    {
+      "id": "bones_seed_flips:13",
+      "name": "flip_180_R_006__A304_M",
+      "library": "bones_seed_flips",
+      "frames": 241,
+      "fps": 50.0,
+      "offset": 1069828
+    },
+    {
+      "id": "bones_seed_flips:14",
+      "name": "flip_180_R_009__A304",
+      "library": "bones_seed_flips",
+      "frames": 306,
+      "fps": 50.0,
+      "offset": 1138272
+    },
+    {
+      "id": "bones_seed_flips:15",
+      "name": "flip_180_R_009__A304_M",
+      "library": "bones_seed_flips",
+      "frames": 306,
+      "fps": 50.0,
+      "offset": 1225176
+    },
+    {
+      "id": "bones_seed_flips:16",
+      "name": "flip_360_001__A304",
+      "library": "bones_seed_flips",
+      "frames": 358,
+      "fps": 50.0,
+      "offset": 1312080
+    },
+    {
+      "id": "bones_seed_flips:17",
+      "name": "flip_360_001__A304_M",
+      "library": "bones_seed_flips",
+      "frames": 358,
+      "fps": 50.0,
+      "offset": 1413752
+    },
+    {
+      "id": "bones_seed_flips:18",
+      "name": "flip_360_001__A305",
+      "library": "bones_seed_flips",
+      "frames": 322,
+      "fps": 50.0,
+      "offset": 1515424
+    },
+    {
+      "id": "bones_seed_flips:19",
+      "name": "flip_360_001__A305_M",
+      "library": "bones_seed_flips",
+      "frames": 322,
+      "fps": 50.0,
+      "offset": 1606872
+    },
+    {
+      "id": "bones_seed_flips:20",
+      "name": "flip_360_002__A304",
+      "library": "bones_seed_flips",
+      "frames": 416,
+      "fps": 50.0,
+      "offset": 1698320
+    },
+    {
+      "id": "bones_seed_flips:21",
+      "name": "flip_360_002__A304_M",
+      "library": "bones_seed_flips",
+      "frames": 416,
+      "fps": 50.0,
+      "offset": 1816464
+    },
+    {
+      "id": "bones_seed_flips:22",
+      "name": "flip_360_002__A305",
+      "library": "bones_seed_flips",
+      "frames": 378,
+      "fps": 50.0,
+      "offset": 1934608
+    },
+    {
+      "id": "bones_seed_flips:23",
+      "name": "flip_360_002__A305_M",
+      "library": "bones_seed_flips",
+      "frames": 378,
+      "fps": 50.0,
+      "offset": 2041960
+    },
+    {
+      "id": "bones_seed_flips:24",
+      "name": "flip_360_004__A304",
+      "library": "bones_seed_flips",
+      "frames": 263,
+      "fps": 50.0,
+      "offset": 2149312
+    },
+    {
+      "id": "bones_seed_flips:25",
+      "name": "flip_360_004__A304_M",
+      "library": "bones_seed_flips",
+      "frames": 263,
+      "fps": 50.0,
+      "offset": 2224004
+    },
+    {
+      "id": "bones_seed_flips:26",
+      "name": "flip_360_hero_landing_001__A304",
+      "library": "bones_seed_flips",
+      "frames": 428,
+      "fps": 50.0,
+      "offset": 2298696
+    },
+    {
+      "id": "bones_seed_flips:27",
+      "name": "flip_360_hero_landing_001__A304_M",
+      "library": "bones_seed_flips",
+      "frames": 428,
+      "fps": 50.0,
+      "offset": 2420248
+    },
+    {
+      "id": "bones_seed_flips:28",
+      "name": "flip_360_hero_landing_002__A304",
+      "library": "bones_seed_flips",
+      "frames": 287,
+      "fps": 50.0,
+      "offset": 2541800
+    },
+    {
+      "id": "bones_seed_flips:29",
+      "name": "flip_360_hero_landing_002__A304_M",
+      "library": "bones_seed_flips",
+      "frames": 287,
+      "fps": 50.0,
+      "offset": 2623308
+    },
+    {
+      "id": "bones_seed_flips:30",
+      "name": "flip_360_hero_landing_003__A304",
+      "library": "bones_seed_flips",
+      "frames": 312,
+      "fps": 50.0,
+      "offset": 2704816
+    },
+    {
+      "id": "bones_seed_flips:31",
+      "name": "flip_360_hero_landing_003__A304_M",
+      "library": "bones_seed_flips",
+      "frames": 312,
+      "fps": 50.0,
+      "offset": 2793424
+    },
+    {
+      "id": "bones_seed_flips:32",
+      "name": "flip_180_R_005__A416",
+      "library": "bones_seed_flips",
+      "frames": 310,
+      "fps": 50.0,
+      "offset": 2882032
+    },
+    {
+      "id": "bones_seed_flips:33",
+      "name": "flip_180_R_005__A416_M",
+      "library": "bones_seed_flips",
+      "frames": 310,
+      "fps": 50.0,
+      "offset": 2970072
+    },
+    {
+      "id": "bones_seed_flips:34",
+      "name": "flip_360_001__A415",
+      "library": "bones_seed_flips",
+      "frames": 348,
+      "fps": 50.0,
+      "offset": 3058112
+    },
+    {
+      "id": "bones_seed_flips:35",
+      "name": "flip_360_001__A415_M",
+      "library": "bones_seed_flips",
+      "frames": 348,
+      "fps": 50.0,
+      "offset": 3156944
+    },
+    {
+      "id": "bones_seed_flips:36",
+      "name": "flip_360_004__A415",
+      "library": "bones_seed_flips",
+      "frames": 310,
+      "fps": 50.0,
+      "offset": 3255776
+    },
+    {
+      "id": "bones_seed_flips:37",
+      "name": "flip_360_004__A415_M",
+      "library": "bones_seed_flips",
+      "frames": 310,
+      "fps": 50.0,
+      "offset": 3343816
+    },
+    {
+      "id": "bones_seed_flips:38",
+      "name": "flip_360_008__A416",
+      "library": "bones_seed_flips",
+      "frames": 318,
+      "fps": 50.0,
+      "offset": 3431856
+    },
+    {
+      "id": "bones_seed_flips:39",
+      "name": "flip_360_008__A416_M",
+      "library": "bones_seed_flips",
+      "frames": 318,
+      "fps": 50.0,
+      "offset": 3522168
+    },
+    {
+      "id": "bones_seed_flips:40",
+      "name": "flip_360_009__A416",
+      "library": "bones_seed_flips",
+      "frames": 245,
+      "fps": 50.0,
+      "offset": 3612480
+    },
+    {
+      "id": "bones_seed_flips:41",
+      "name": "flip_360_009__A416_M",
+      "library": "bones_seed_flips",
+      "frames": 245,
+      "fps": 50.0,
+      "offset": 3682060
+    },
+    {
+      "id": "bones_seed_flips:42",
+      "name": "flip_360_011__A416",
+      "library": "bones_seed_flips",
+      "frames": 241,
+      "fps": 50.0,
+      "offset": 3751640
+    },
+    {
+      "id": "bones_seed_flips:43",
+      "name": "flip_360_011__A416_M",
+      "library": "bones_seed_flips",
+      "frames": 241,
+      "fps": 50.0,
+      "offset": 3820084
+    },
+    {
+      "id": "bones_seed_cartwheels:0",
+      "name": "cartwheel_R_001__A135",
+      "library": "bones_seed_cartwheels",
+      "frames": 355,
+      "fps": 50.0,
+      "offset": 3888528
+    },
+    {
+      "id": "bones_seed_cartwheels:1",
+      "name": "cartwheel_R_001__A135_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 355,
+      "fps": 50.0,
+      "offset": 3989348
+    },
+    {
+      "id": "bones_seed_cartwheels:2",
+      "name": "cartwheel_R_001__A137",
+      "library": "bones_seed_cartwheels",
+      "frames": 253,
+      "fps": 50.0,
+      "offset": 4090168
+    },
+    {
+      "id": "bones_seed_cartwheels:3",
+      "name": "cartwheel_R_001__A137_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 253,
+      "fps": 50.0,
+      "offset": 4162020
+    },
+    {
+      "id": "bones_seed_cartwheels:4",
+      "name": "cartwheel_R_001__A138",
+      "library": "bones_seed_cartwheels",
+      "frames": 355,
+      "fps": 50.0,
+      "offset": 4233872
+    },
+    {
+      "id": "bones_seed_cartwheels:5",
+      "name": "cartwheel_R_001__A138_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 355,
+      "fps": 50.0,
+      "offset": 4334692
+    },
+    {
+      "id": "bones_seed_cartwheels:6",
+      "name": "cartwheel_R_001__A139",
+      "library": "bones_seed_cartwheels",
+      "frames": 255,
+      "fps": 50.0,
+      "offset": 4435512
+    },
+    {
+      "id": "bones_seed_cartwheels:7",
+      "name": "cartwheel_R_001__A139_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 255,
+      "fps": 50.0,
+      "offset": 4507932
+    },
+    {
+      "id": "bones_seed_cartwheels:8",
+      "name": "cartwheel_R_002__A135",
+      "library": "bones_seed_cartwheels",
+      "frames": 303,
+      "fps": 50.0,
+      "offset": 4580352
+    },
+    {
+      "id": "bones_seed_cartwheels:9",
+      "name": "cartwheel_R_002__A135_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 303,
+      "fps": 50.0,
+      "offset": 4666404
+    },
+    {
+      "id": "bones_seed_cartwheels:10",
+      "name": "cartwheel_R_002__A136",
+      "library": "bones_seed_cartwheels",
+      "frames": 271,
+      "fps": 50.0,
+      "offset": 4752456
+    },
+    {
+      "id": "bones_seed_cartwheels:11",
+      "name": "cartwheel_R_002__A136_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 271,
+      "fps": 50.0,
+      "offset": 4829420
+    },
+    {
+      "id": "bones_seed_cartwheels:12",
+      "name": "cartwheel_R_002__A138",
+      "library": "bones_seed_cartwheels",
+      "frames": 315,
+      "fps": 50.0,
+      "offset": 4906384
+    },
+    {
+      "id": "bones_seed_cartwheels:13",
+      "name": "cartwheel_R_002__A138_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 315,
+      "fps": 50.0,
+      "offset": 4995844
+    },
+    {
+      "id": "bones_seed_cartwheels:14",
+      "name": "cartwheel_R_002__A139",
+      "library": "bones_seed_cartwheels",
+      "frames": 244,
+      "fps": 50.0,
+      "offset": 5085304
+    },
+    {
+      "id": "bones_seed_cartwheels:15",
+      "name": "cartwheel_R_002__A139_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 244,
+      "fps": 50.0,
+      "offset": 5154600
+    },
+    {
+      "id": "bones_seed_cartwheels:16",
+      "name": "cartwheel_R_003__A135",
+      "library": "bones_seed_cartwheels",
+      "frames": 314,
+      "fps": 50.0,
+      "offset": 5223896
+    },
+    {
+      "id": "bones_seed_cartwheels:17",
+      "name": "cartwheel_R_003__A135_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 314,
+      "fps": 50.0,
+      "offset": 5313072
+    },
+    {
+      "id": "bones_seed_cartwheels:18",
+      "name": "cartwheel_R_003__A136",
+      "library": "bones_seed_cartwheels",
+      "frames": 228,
+      "fps": 50.0,
+      "offset": 5402248
+    },
+    {
+      "id": "bones_seed_cartwheels:19",
+      "name": "cartwheel_R_003__A136_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 228,
+      "fps": 50.0,
+      "offset": 5467000
+    },
+    {
+      "id": "bones_seed_cartwheels:20",
+      "name": "cartwheel_R_003__A138",
+      "library": "bones_seed_cartwheels",
+      "frames": 318,
+      "fps": 50.0,
+      "offset": 5531752
+    },
+    {
+      "id": "bones_seed_cartwheels:21",
+      "name": "cartwheel_R_003__A138_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 318,
+      "fps": 50.0,
+      "offset": 5622064
+    },
+    {
+      "id": "bones_seed_cartwheels:22",
+      "name": "cartwheel_R_003__A139",
+      "library": "bones_seed_cartwheels",
+      "frames": 217,
+      "fps": 50.0,
+      "offset": 5712376
+    },
+    {
+      "id": "bones_seed_cartwheels:23",
+      "name": "cartwheel_R_003__A139_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 217,
+      "fps": 50.0,
+      "offset": 5774004
+    },
+    {
+      "id": "bones_seed_cartwheels:24",
+      "name": "cartwheel_R_004__A135",
+      "library": "bones_seed_cartwheels",
+      "frames": 331,
+      "fps": 50.0,
+      "offset": 5835632
+    },
+    {
+      "id": "bones_seed_cartwheels:25",
+      "name": "cartwheel_R_004__A135_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 331,
+      "fps": 50.0,
+      "offset": 5929636
+    },
+    {
+      "id": "bones_seed_cartwheels:26",
+      "name": "cartwheel_R_004__A136",
+      "library": "bones_seed_cartwheels",
+      "frames": 242,
+      "fps": 50.0,
+      "offset": 6023640
+    },
+    {
+      "id": "bones_seed_cartwheels:27",
+      "name": "cartwheel_R_004__A136_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 242,
+      "fps": 50.0,
+      "offset": 6092368
+    },
+    {
+      "id": "bones_seed_cartwheels:28",
+      "name": "cartwheel_R_004__A138",
+      "library": "bones_seed_cartwheels",
+      "frames": 324,
+      "fps": 50.0,
+      "offset": 6161096
+    },
+    {
+      "id": "bones_seed_cartwheels:29",
+      "name": "cartwheel_R_004__A138_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 324,
+      "fps": 50.0,
+      "offset": 6253112
+    },
+    {
+      "id": "bones_seed_cartwheels:30",
+      "name": "cartwheel_R_004__A139",
+      "library": "bones_seed_cartwheels",
+      "frames": 203,
+      "fps": 50.0,
+      "offset": 6345128
+    },
+    {
+      "id": "bones_seed_cartwheels:31",
+      "name": "cartwheel_R_004__A139_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 203,
+      "fps": 50.0,
+      "offset": 6402780
+    },
+    {
+      "id": "bones_seed_cartwheels:32",
+      "name": "cartwheel_R_002__A150",
+      "library": "bones_seed_cartwheels",
+      "frames": 263,
+      "fps": 50.0,
+      "offset": 6460432
+    },
+    {
+      "id": "bones_seed_cartwheels:33",
+      "name": "cartwheel_R_002__A150_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 263,
+      "fps": 50.0,
+      "offset": 6535124
+    },
+    {
+      "id": "bones_seed_cartwheels:34",
+      "name": "cartwheel_R_002__A151",
+      "library": "bones_seed_cartwheels",
+      "frames": 202,
+      "fps": 50.0,
+      "offset": 6609816
+    },
+    {
+      "id": "bones_seed_cartwheels:35",
+      "name": "cartwheel_R_002__A151_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 202,
+      "fps": 50.0,
+      "offset": 6667184
+    },
+    {
+      "id": "bones_seed_cartwheels:36",
+      "name": "cartwheel_R_002__A152",
+      "library": "bones_seed_cartwheels",
+      "frames": 232,
+      "fps": 50.0,
+      "offset": 6724552
+    },
+    {
+      "id": "bones_seed_cartwheels:37",
+      "name": "cartwheel_R_002__A152_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 232,
+      "fps": 50.0,
+      "offset": 6790440
+    },
+    {
+      "id": "bones_seed_cartwheels:38",
+      "name": "cartwheel_R_002__A153",
+      "library": "bones_seed_cartwheels",
+      "frames": 277,
+      "fps": 50.0,
+      "offset": 6856328
+    },
+    {
+      "id": "bones_seed_cartwheels:39",
+      "name": "cartwheel_R_002__A153_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 277,
+      "fps": 50.0,
+      "offset": 6934996
+    },
+    {
+      "id": "bones_seed_cartwheels:40",
+      "name": "cartwheel_R_002__A154",
+      "library": "bones_seed_cartwheels",
+      "frames": 249,
+      "fps": 50.0,
+      "offset": 7013664
+    },
+    {
+      "id": "bones_seed_cartwheels:41",
+      "name": "cartwheel_R_002__A154_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 249,
+      "fps": 50.0,
+      "offset": 7084380
+    },
+    {
+      "id": "bones_seed_cartwheels:42",
+      "name": "cartwheel_R_003__A150",
+      "library": "bones_seed_cartwheels",
+      "frames": 247,
+      "fps": 50.0,
+      "offset": 7155096
+    },
+    {
+      "id": "bones_seed_cartwheels:43",
+      "name": "cartwheel_R_003__A150_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 247,
+      "fps": 50.0,
+      "offset": 7225244
+    },
+    {
+      "id": "bones_seed_cartwheels:44",
+      "name": "cartwheel_R_003__A151",
+      "library": "bones_seed_cartwheels",
+      "frames": 208,
+      "fps": 50.0,
+      "offset": 7295392
+    },
+    {
+      "id": "bones_seed_cartwheels:45",
+      "name": "cartwheel_R_003__A151_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 208,
+      "fps": 50.0,
+      "offset": 7354464
+    },
+    {
+      "id": "bones_seed_cartwheels:46",
+      "name": "cartwheel_R_003__A152",
+      "library": "bones_seed_cartwheels",
+      "frames": 234,
+      "fps": 50.0,
+      "offset": 7413536
+    },
+    {
+      "id": "bones_seed_cartwheels:47",
+      "name": "cartwheel_R_003__A152_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 234,
+      "fps": 50.0,
+      "offset": 7479992
+    },
+    {
+      "id": "bones_seed_cartwheels:48",
+      "name": "cartwheel_R_003__A153",
+      "library": "bones_seed_cartwheels",
+      "frames": 286,
+      "fps": 50.0,
+      "offset": 7546448
+    },
+    {
+      "id": "bones_seed_cartwheels:49",
+      "name": "cartwheel_R_003__A153_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 286,
+      "fps": 50.0,
+      "offset": 7627672
+    },
+    {
+      "id": "bones_seed_cartwheels:50",
+      "name": "cartwheel_R_003__A154",
+      "library": "bones_seed_cartwheels",
+      "frames": 269,
+      "fps": 50.0,
+      "offset": 7708896
+    },
+    {
+      "id": "bones_seed_cartwheels:51",
+      "name": "cartwheel_R_003__A154_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 269,
+      "fps": 50.0,
+      "offset": 7785292
+    },
+    {
+      "id": "bones_seed_cartwheels:52",
+      "name": "cartwheel_R_005__A150",
+      "library": "bones_seed_cartwheels",
+      "frames": 233,
+      "fps": 50.0,
+      "offset": 7861688
+    },
+    {
+      "id": "bones_seed_cartwheels:53",
+      "name": "cartwheel_R_005__A150_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 233,
+      "fps": 50.0,
+      "offset": 7927860
+    },
+    {
+      "id": "bones_seed_cartwheels:54",
+      "name": "cartwheel_R_005__A151",
+      "library": "bones_seed_cartwheels",
+      "frames": 163,
+      "fps": 50.0,
+      "offset": 7994032
+    },
+    {
+      "id": "bones_seed_cartwheels:55",
+      "name": "cartwheel_R_005__A151_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 163,
+      "fps": 50.0,
+      "offset": 8040324
+    },
+    {
+      "id": "bones_seed_cartwheels:56",
+      "name": "cartwheel_R_005__A152",
+      "library": "bones_seed_cartwheels",
+      "frames": 257,
+      "fps": 50.0,
+      "offset": 8086616
+    },
+    {
+      "id": "bones_seed_cartwheels:57",
+      "name": "cartwheel_R_005__A152_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 257,
+      "fps": 50.0,
+      "offset": 8159604
+    },
+    {
+      "id": "bones_seed_cartwheels:58",
+      "name": "cartwheel_R_005__A153",
+      "library": "bones_seed_cartwheels",
+      "frames": 232,
+      "fps": 50.0,
+      "offset": 8232592
+    },
+    {
+      "id": "bones_seed_cartwheels:59",
+      "name": "cartwheel_R_005__A153_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 232,
+      "fps": 50.0,
+      "offset": 8298480
+    },
+    {
+      "id": "bones_seed_cartwheels:60",
+      "name": "cartwheel_R_005__A154",
+      "library": "bones_seed_cartwheels",
+      "frames": 259,
+      "fps": 50.0,
+      "offset": 8364368
+    },
+    {
+      "id": "bones_seed_cartwheels:61",
+      "name": "cartwheel_R_005__A154_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 259,
+      "fps": 50.0,
+      "offset": 8437924
+    },
+    {
+      "id": "bones_seed_cartwheels:62",
+      "name": "cartwheel_R_003__A235",
+      "library": "bones_seed_cartwheels",
+      "frames": 170,
+      "fps": 50.0,
+      "offset": 8511480
+    },
+    {
+      "id": "bones_seed_cartwheels:63",
+      "name": "cartwheel_R_003__A235_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 170,
+      "fps": 50.0,
+      "offset": 8559760
+    },
+    {
+      "id": "bones_seed_cartwheels:64",
+      "name": "cartwheel_R_003__A236",
+      "library": "bones_seed_cartwheels",
+      "frames": 195,
+      "fps": 50.0,
+      "offset": 8608040
+    },
+    {
+      "id": "bones_seed_cartwheels:65",
+      "name": "cartwheel_R_003__A236_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 195,
+      "fps": 50.0,
+      "offset": 8663420
+    },
+    {
+      "id": "bones_seed_cartwheels:66",
+      "name": "cartwheel_R_003__A237",
+      "library": "bones_seed_cartwheels",
+      "frames": 205,
+      "fps": 50.0,
+      "offset": 8718800
+    },
+    {
+      "id": "bones_seed_cartwheels:67",
+      "name": "cartwheel_R_003__A237_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 205,
+      "fps": 50.0,
+      "offset": 8777020
+    },
+    {
+      "id": "bones_seed_cartwheels:68",
+      "name": "cartwheel_R_003__A238",
+      "library": "bones_seed_cartwheels",
+      "frames": 231,
+      "fps": 50.0,
+      "offset": 8835240
+    },
+    {
+      "id": "bones_seed_cartwheels:69",
+      "name": "cartwheel_R_003__A238_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 231,
+      "fps": 50.0,
+      "offset": 8900844
+    },
+    {
+      "id": "bones_seed_cartwheels:70",
+      "name": "cartwheel_R_004__A235",
+      "library": "bones_seed_cartwheels",
+      "frames": 185,
+      "fps": 50.0,
+      "offset": 8966448
+    },
+    {
+      "id": "bones_seed_cartwheels:71",
+      "name": "cartwheel_R_004__A235_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 185,
+      "fps": 50.0,
+      "offset": 9018988
+    },
+    {
+      "id": "bones_seed_cartwheels:72",
+      "name": "cartwheel_R_004__A236",
+      "library": "bones_seed_cartwheels",
+      "frames": 195,
+      "fps": 50.0,
+      "offset": 9071528
+    },
+    {
+      "id": "bones_seed_cartwheels:73",
+      "name": "cartwheel_R_004__A236_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 195,
+      "fps": 50.0,
+      "offset": 9126908
+    },
+    {
+      "id": "bones_seed_cartwheels:74",
+      "name": "cartwheel_R_004__A237",
+      "library": "bones_seed_cartwheels",
+      "frames": 244,
+      "fps": 50.0,
+      "offset": 9182288
+    },
+    {
+      "id": "bones_seed_cartwheels:75",
+      "name": "cartwheel_R_004__A237_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 244,
+      "fps": 50.0,
+      "offset": 9251584
+    },
+    {
+      "id": "bones_seed_cartwheels:76",
+      "name": "cartwheel_R_004__A238",
+      "library": "bones_seed_cartwheels",
+      "frames": 291,
+      "fps": 50.0,
+      "offset": 9320880
+    },
+    {
+      "id": "bones_seed_cartwheels:77",
+      "name": "cartwheel_R_004__A238_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 291,
+      "fps": 50.0,
+      "offset": 9403524
+    },
+    {
+      "id": "bones_seed_cartwheels:78",
+      "name": "cartwheel_R_005__A235",
+      "library": "bones_seed_cartwheels",
+      "frames": 285,
+      "fps": 50.0,
+      "offset": 9486168
+    },
+    {
+      "id": "bones_seed_cartwheels:79",
+      "name": "cartwheel_R_005__A235_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 285,
+      "fps": 50.0,
+      "offset": 9567108
+    },
+    {
+      "id": "bones_seed_cartwheels:80",
+      "name": "cartwheel_R_005__A236",
+      "library": "bones_seed_cartwheels",
+      "frames": 196,
+      "fps": 50.0,
+      "offset": 9648048
+    },
+    {
+      "id": "bones_seed_cartwheels:81",
+      "name": "cartwheel_R_005__A236_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 196,
+      "fps": 50.0,
+      "offset": 9703712
+    },
+    {
+      "id": "bones_seed_cartwheels:82",
+      "name": "cartwheel_R_005__A237",
+      "library": "bones_seed_cartwheels",
+      "frames": 213,
+      "fps": 50.0,
+      "offset": 9759376
+    },
+    {
+      "id": "bones_seed_cartwheels:83",
+      "name": "cartwheel_R_005__A237_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 213,
+      "fps": 50.0,
+      "offset": 9819868
+    },
+    {
+      "id": "bones_seed_cartwheels:84",
+      "name": "cartwheel_R_005__A238",
+      "library": "bones_seed_cartwheels",
+      "frames": 280,
+      "fps": 50.0,
+      "offset": 9880360
+    },
+    {
+      "id": "bones_seed_cartwheels:85",
+      "name": "cartwheel_R_005__A238_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 280,
+      "fps": 50.0,
+      "offset": 9959880
+    },
+    {
+      "id": "bones_seed_cartwheels:86",
+      "name": "cartwheel_R_001__A304",
+      "library": "bones_seed_cartwheels",
+      "frames": 235,
+      "fps": 50.0,
+      "offset": 10039400
+    },
+    {
+      "id": "bones_seed_cartwheels:87",
+      "name": "cartwheel_R_001__A304_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 235,
+      "fps": 50.0,
+      "offset": 10106140
+    },
+    {
+      "id": "bones_seed_cartwheels:88",
+      "name": "cartwheel_R_002__A304",
+      "library": "bones_seed_cartwheels",
+      "frames": 300,
+      "fps": 50.0,
+      "offset": 10172880
+    },
+    {
+      "id": "bones_seed_cartwheels:89",
+      "name": "cartwheel_R_002__A304_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 300,
+      "fps": 50.0,
+      "offset": 10258080
+    },
+    {
+      "id": "bones_seed_cartwheels:90",
+      "name": "cartwheel_R_003__A304",
+      "library": "bones_seed_cartwheels",
+      "frames": 294,
+      "fps": 50.0,
+      "offset": 10343280
+    },
+    {
+      "id": "bones_seed_cartwheels:91",
+      "name": "cartwheel_R_003__A304_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 294,
+      "fps": 50.0,
+      "offset": 10426776
+    },
+    {
+      "id": "bones_seed_cartwheels:92",
+      "name": "cartwheel_R_101__A305",
+      "library": "bones_seed_cartwheels",
+      "frames": 262,
+      "fps": 50.0,
+      "offset": 10510272
+    },
+    {
+      "id": "bones_seed_cartwheels:93",
+      "name": "cartwheel_R_101__A305_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 262,
+      "fps": 50.0,
+      "offset": 10584680
+    },
+    {
+      "id": "bones_seed_cartwheels:94",
+      "name": "cartwheel_R_102__A305",
+      "library": "bones_seed_cartwheels",
+      "frames": 254,
+      "fps": 50.0,
+      "offset": 10659088
+    },
+    {
+      "id": "bones_seed_cartwheels:95",
+      "name": "cartwheel_R_102__A305_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 254,
+      "fps": 50.0,
+      "offset": 10731224
+    },
+    {
+      "id": "bones_seed_cartwheels:96",
+      "name": "cartwheel_R_103__A305",
+      "library": "bones_seed_cartwheels",
+      "frames": 283,
+      "fps": 50.0,
+      "offset": 10803360
+    },
+    {
+      "id": "bones_seed_cartwheels:97",
+      "name": "cartwheel_R_103__A305_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 283,
+      "fps": 50.0,
+      "offset": 10883732
+    },
+    {
+      "id": "bones_seed_cartwheels:98",
+      "name": "cartwheel_R_001__A415",
+      "library": "bones_seed_cartwheels",
+      "frames": 210,
+      "fps": 50.0,
+      "offset": 10964104
+    },
+    {
+      "id": "bones_seed_cartwheels:99",
+      "name": "cartwheel_R_001__A415_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 210,
+      "fps": 50.0,
+      "offset": 11023744
+    },
+    {
+      "id": "bones_seed_cartwheels:100",
+      "name": "cartwheel_R_001__A416",
+      "library": "bones_seed_cartwheels",
+      "frames": 236,
+      "fps": 50.0,
+      "offset": 11083384
+    },
+    {
+      "id": "bones_seed_cartwheels:101",
+      "name": "cartwheel_R_001__A416_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 236,
+      "fps": 50.0,
+      "offset": 11150408
+    },
+    {
+      "id": "bones_seed_cartwheels:102",
+      "name": "cartwheel_R_002__A415",
+      "library": "bones_seed_cartwheels",
+      "frames": 243,
+      "fps": 50.0,
+      "offset": 11217432
+    },
+    {
+      "id": "bones_seed_cartwheels:103",
+      "name": "cartwheel_R_002__A415_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 243,
+      "fps": 50.0,
+      "offset": 11286444
+    },
+    {
+      "id": "bones_seed_cartwheels:104",
+      "name": "cartwheel_R_002__A416",
+      "library": "bones_seed_cartwheels",
+      "frames": 289,
+      "fps": 50.0,
+      "offset": 11355456
+    },
+    {
+      "id": "bones_seed_cartwheels:105",
+      "name": "cartwheel_R_002__A416_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 289,
+      "fps": 50.0,
+      "offset": 11437532
+    },
+    {
+      "id": "bones_seed_cartwheels:106",
+      "name": "cartwheel_R_003__A415",
+      "library": "bones_seed_cartwheels",
+      "frames": 290,
+      "fps": 50.0,
+      "offset": 11519608
+    },
+    {
+      "id": "bones_seed_cartwheels:107",
+      "name": "cartwheel_R_003__A415_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 290,
+      "fps": 50.0,
+      "offset": 11601968
+    },
+    {
+      "id": "bones_seed_cartwheels:108",
+      "name": "cartwheelin_001__A487",
+      "library": "bones_seed_cartwheels",
+      "frames": 542,
+      "fps": 50.0,
+      "offset": 11684328
+    },
+    {
+      "id": "bones_seed_cartwheels:109",
+      "name": "cartwheelin_001__A487_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 542,
+      "fps": 50.0,
+      "offset": 11838256
+    },
+    {
+      "id": "bones_seed_cartwheels:110",
+      "name": "cartwheelin_002__A485",
+      "library": "bones_seed_cartwheels",
+      "frames": 407,
+      "fps": 50.0,
+      "offset": 11992184
+    },
+    {
+      "id": "bones_seed_cartwheels:111",
+      "name": "cartwheelin_002__A485_M",
+      "library": "bones_seed_cartwheels",
+      "frames": 407,
+      "fps": 50.0,
+      "offset": 12107772
+    }
+  ],
+  "motion_archive": "motions/motions.bin",
+  "physics_hz": 200.0,
+  "control_hz": 50.0,
+  "fps": 50.0,
+  "history_length": 10,
+  "goal_frames": 10,
+  "goal_stride": 5,
+  "joint_names": [
+    "left_hip_pitch_joint",
+    "left_hip_roll_joint",
+    "left_hip_yaw_joint",
+    "left_knee_joint",
+    "left_ankle_pitch_joint",
+    "left_ankle_roll_joint",
+    "right_hip_pitch_joint",
+    "right_hip_roll_joint",
+    "right_hip_yaw_joint",
+    "right_knee_joint",
+    "right_ankle_pitch_joint",
+    "right_ankle_roll_joint",
+    "waist_yaw_joint",
+    "waist_roll_joint",
+    "waist_pitch_joint",
+    "left_shoulder_pitch_joint",
+    "left_shoulder_roll_joint",
+    "left_shoulder_yaw_joint",
+    "left_elbow_joint",
+    "left_wrist_roll_joint",
+    "left_wrist_pitch_joint",
+    "left_wrist_yaw_joint",
+    "right_shoulder_pitch_joint",
+    "right_shoulder_roll_joint",
+    "right_shoulder_yaw_joint",
+    "right_elbow_joint",
+    "right_wrist_roll_joint",
+    "right_wrist_pitch_joint",
+    "right_wrist_yaw_joint"
+  ],
+  "default_joint_pos": [
+    -0.312,
+    0.0,
+    0.0,
+    0.669,
+    -0.363,
+    0.0,
+    -0.312,
+    0.0,
+    0.0,
+    0.669,
+    -0.363,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.2,
+    0.2,
+    0.0,
+    0.6,
+    0.0,
+    0.0,
+    0.0,
+    0.2,
+    -0.2,
+    0.0,
+    0.6,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "action_scale": [
+    0.5475464629911068,
+    0.35066146637882434,
+    0.5475464629911068,
+    0.35066146637882434,
+    0.43857731392336724,
+    0.43857731392336724,
+    0.5475464629911068,
+    0.35066146637882434,
+    0.5475464629911068,
+    0.35066146637882434,
+    0.43857731392336724,
+    0.43857731392336724,
+    0.5475464629911068,
+    0.43857731392336724,
+    0.43857731392336724,
+    0.43857731392336724,
+    0.43857731392336724,
+    0.43857731392336724,
+    0.43857731392336724,
+    0.43857731392336724,
+    0.07450087032950714,
+    0.07450087032950714,
+    0.43857731392336724,
+    0.43857731392336724,
+    0.43857731392336724,
+    0.43857731392336724,
+    0.43857731392336724,
+    0.07450087032950714,
+    0.07450087032950714
+  ],
+  "joint_kp": [
+    40.17923863450712,
+    99.09842777666111,
+    40.17923863450712,
+    99.09842777666111,
+    28.50124619574858,
+    28.50124619574858,
+    40.17923863450712,
+    99.09842777666111,
+    40.17923863450712,
+    99.09842777666111,
+    28.50124619574858,
+    28.50124619574858,
+    40.17923863450712,
+    28.50124619574858,
+    28.50124619574858,
+    14.25062309787429,
+    14.25062309787429,
+    14.25062309787429,
+    14.25062309787429,
+    14.25062309787429,
+    16.77832748089279,
+    16.77832748089279,
+    14.25062309787429,
+    14.25062309787429,
+    14.25062309787429,
+    14.25062309787429,
+    14.25062309787429,
+    16.77832748089279,
+    16.77832748089279
+  ],
+  "joint_kd": [
+    2.557889775413375,
+    6.308801853496639,
+    2.557889775413375,
+    6.308801853496639,
+    1.814445686584846,
+    1.814445686584846,
+    2.557889775413375,
+    6.308801853496639,
+    2.557889775413375,
+    6.308801853496639,
+    1.814445686584846,
+    1.814445686584846,
+    2.557889775413375,
+    1.814445686584846,
+    1.814445686584846,
+    0.907222843292423,
+    0.907222843292423,
+    0.907222843292423,
+    0.907222843292423,
+    0.907222843292423,
+    1.06814150219,
+    1.06814150219,
+    0.907222843292423,
+    0.907222843292423,
+    0.907222843292423,
+    0.907222843292423,
+    0.907222843292423,
+    1.06814150219,
+    1.06814150219
+  ],
+  "joint_effort": [
+    88.0,
+    139.0,
+    88.0,
+    139.0,
+    50.0,
+    50.0,
+    88.0,
+    139.0,
+    88.0,
+    139.0,
+    50.0,
+    50.0,
+    88.0,
+    50.0,
+    50.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    5.0,
+    5.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    5.0,
+    5.0
+  ]
+}

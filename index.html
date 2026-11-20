@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#07110f" />
+    <title>SuperMimic Browser Playback</title>
+    <script type="module" crossorigin src="./assets/index-DTWCD_wg.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CltXt6JH.css">
+  </head>
+  <body>
+    <main id="app">
+      <canvas id="viewport" aria-label="MuJoCo simulation viewport"></canvas>
+
+      <header class="topbar">
+        <div class="brand">
+          <div class="brand-mark">S</div>
+          <div>
+            <div class="eyebrow">SUPERMIMIC / SIM2SIM</div>
+            <h1>Browser Playback</h1>
+          </div>
+        </div>
+        <div class="engine-state">
+          <span id="engine-dot" class="status-dot"></span>
+          <span id="engine-label">BOOTING</span>
+          <span class="engine-divider"></span>
+          <span class="mono dim">MUJOCO 200 HZ</span>
+        </div>
+      </header>
+
+      <aside class="panel" aria-label="Playback controls">
+        <section class="panel-block">
+          <div class="block-heading">
+            <span class="block-index">01</span>
+            <span>Policy</span>
+            <span id="policy-state" class="block-status">—</span>
+          </div>
+          <label class="field-label" for="checkpoint">CHECKPOINT</label>
+          <select id="checkpoint" class="field"></select>
+          <div id="policy-meta" class="meta-line">Waiting for manifest</div>
+        </section>
+
+        <section class="panel-block">
+          <div class="block-heading">
+            <span class="block-index">02</span>
+            <span>Motion</span>
+            <span id="motion-count" class="block-status">—</span>
+          </div>
+          <input
+            id="motion-search"
+            class="field search"
+            type="search"
+            placeholder="Filter by clip name…"
+            autocomplete="off"
+            spellcheck="false"
+          />
+          <select id="motion" class="field motion-select" size="7"></select>
+          <div id="motion-meta" class="meta-line">Choose a BONES-SEED clip</div>
+        </section>
+
+        <section class="panel-block playback-block">
+          <div class="block-heading">
+            <span class="block-index">03</span>
+            <span>Playback</span>
+            <span id="playback-state" class="block-status">PAUSED</span>
+          </div>
+          <div class="button-row">
+            <button id="play" class="button primary" type="button">Play</button>
+            <button id="step" class="button" type="button">Step</button>
+            <button id="reset" class="button" type="button">Reset</button>
+          </div>
+          <div class="toggle-row">
+            <label class="toggle">
+              <input id="follow" type="checkbox" checked />
+              <span class="toggle-track"></span>
+              <span>Follow base</span>
+            </label>
+            <button id="reset-camera" class="link-button" type="button">Reset view</button>
+          </div>
+          <div class="provider-row">
+            <label class="field-label" for="provider">INFERENCE BACKEND</label>
+            <select id="provider" class="field compact">
+              <option value="auto">Auto / WebGPU</option>
+              <option value="wasm">WASM</option>
+            </select>
+          </div>
+          <div class="provider-row">
+            <label class="field-label" for="target-clip">TARGET CLIP</label>
+            <select id="target-clip" class="field compact">
+              <option value="none">None / official</option>
+              <option value="torque">Torque-aware</option>
+            </select>
+          </div>
+        </section>
+
+        <section class="telemetry">
+          <div class="telemetry-item">
+            <span class="telemetry-label">RENDER</span>
+            <strong id="stat-fps">—</strong>
+          </div>
+          <div class="telemetry-item">
+            <span class="telemetry-label">CONTROL</span>
+            <strong id="stat-control">—</strong>
+          </div>
+          <div class="telemetry-item">
+            <span class="telemetry-label">POLICY</span>
+            <strong id="stat-policy">—</strong>
+          </div>
+          <div class="telemetry-item">
+            <span class="telemetry-label">STEP</span>
+            <strong id="stat-step">—</strong>
+          </div>
+          <div class="telemetry-wide">
+            <div class="telemetry-label-row">
+              <span class="telemetry-label">REFERENCE TIMELINE</span>
+              <span id="clip-time" class="mono">—</span>
+            </div>
+            <div class="timeline"><span id="clip-progress"></span></div>
+          </div>
+        </section>
+
+        <footer class="panel-footer">
+          <span>MuJoCo WASM</span><span>·</span><span>ONNX Runtime Web</span><span>·</span><span>Three.js</span>
+        </footer>
+      </aside>
+
+      <div class="corner-note mono">
+        <span>DRAG TO ORBIT</span><span>SCROLL TO ZOOM</span><span>SPACE PLAY / PAUSE</span>
+      </div>
+
+      <div id="loading" class="loading">
+        <div class="loading-card">
+          <div class="loading-mark">S</div>
+          <div class="eyebrow">STATIC SIMULATION / LOCAL BROWSER</div>
+          <h2 id="loading-title">Preparing the simulation</h2>
+          <p id="loading-detail">Loading manifest…</p>
+          <div class="loading-progress"><span id="loading-fill"></span></div>
+          <div id="loading-error" class="loading-error" hidden></div>
+        </div>
+      </div>
+
+      <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    </main>
+  </body>
+</html>
