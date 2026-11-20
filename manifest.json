@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-20T00:48:57Z",
+  "generated_at": "2026-11-20T02:50:05Z",
   "model": {
     "xml": "models/g1/g1.xml",
     "asset_base": "models/g1/assets",
@@ -46,9 +46,9 @@
       "label": "runs/bones_seed/bones_seed_bin_0_2s",
       "source": "runs/bones_seed/bones_seed_bin_0_2s/last.pt",
       "onnx": "policies/00_runs_bones_seed_bones_seed_bin_0_2s.onnx",
-      "it": 22000,
-      "updates": 8797,
-      "env_steps": 180224000,
+      "it": 27000,
+      "updates": 10797,
+      "env_steps": 221184000,
       "history_length": 10,
       "goal_dim": 640,
       "action_dim": 29,
