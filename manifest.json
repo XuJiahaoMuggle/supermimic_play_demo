@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-20T02:50:05Z",
+  "generated_at": "2026-11-24T13:19:31Z",
   "model": {
     "xml": "models/g1/g1.xml",
     "asset_base": "models/g1/assets",
@@ -42,13 +42,13 @@
   },
   "checkpoints": [
     {
-      "id": "runs_bones_seed_bones_seed_bin_0_2s",
+      "id": "runs_demo_ckpt_it286000",
       "label": "runs/bones_seed/bones_seed_bin_0_2s",
       "source": "runs/bones_seed/bones_seed_bin_0_2s/last.pt",
       "onnx": "policies/00_runs_bones_seed_bones_seed_bin_0_2s.onnx",
-      "it": 27000,
-      "updates": 10797,
-      "env_steps": 221184000,
+      "it": 286000,
+      "updates": 114397,
+      "env_steps": 2342912000,
       "history_length": 10,
       "goal_dim": 640,
       "action_dim": 29,

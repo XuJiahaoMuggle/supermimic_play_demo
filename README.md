@@ -40,7 +40,7 @@ The side panel also exposes:
 The current page was exported from:
 
 ```text
-runs/bones_seed/bones_seed_bin_0_2s/last.pt  (it=27000)
+runs/bones_seed/bones_seed_bin_0_2s/last.pt  (it=286000)
 ```
 
 It contains one ONNX actor and 156 motion clips. The exported actor uses a
