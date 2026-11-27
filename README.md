@@ -43,7 +43,11 @@ The current page was exported from:
 runs/bones_seed/bones_seed_bin_0_2s/last.pt  (it=286000)
 ```
 
-It contains one ONNX actor and 156 motion clips. The exported actor uses a
+It contains one ONNX actor and 101 curated motion clips drawn from
+`bones_seed_clean_no_handstand.npz`: 17 locomotion clips, 29 dance clips,
+20 sport/fitness clips, 28 gesture/expression clips, and 7 acrobatic/stunt
+clips. The playlist in the source repository is
+`demos/play_demo/clips/bones_seed_play_demo.txt`. The exported actor uses a
 10-frame proprio history and a 640-dimensional motion goal.
 
 ## Repository layout
@@ -84,6 +88,8 @@ Build the static assets in the SuperMimic source repository:
 ```bash
 python -m demos.play_demo.export_web \
   --checkpoint runs/bones_seed/bones_seed_bin_0_2s/last.pt \
+  --motion-file data/processed/bones_seed_clean_no_handstand.npz \
+  --clip-file demos/play_demo/clips/bones_seed_play_demo.txt \
   --output demos/play_demo/web/public
 
 cd demos/play_demo/web
